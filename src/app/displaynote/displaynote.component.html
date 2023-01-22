@@ -1,0 +1,11 @@
+<div class="display">
+    <div class="notes" *ngFor="let data of noteList">
+        <p>{{data.Title}}</p>
+        <div class="description">
+            <p>{{data.descrption}}</p>
+            <div class="icon">
+                <app-icon>notedesign</app-icon>
+            </div>
+        </div>
+    </div>
+</div>
